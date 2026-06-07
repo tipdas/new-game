@@ -1,5 +1,10 @@
 #include <iostream>
-#include <string> 
+#include <string>
+#include "Location.h"
+#include "Igrok.h"
+#include "Puzzle_int.h"
+#include "Puzzle_string.h"
+
 using namespace std;
 bool work_Puzzle_int(string text, int idea) {
     int answer;
@@ -39,36 +44,6 @@ if (open == false) {
 
 return start_id;
 }
-class Puzzle_int {
-    public:
-    int idea;
-    string question;
-
-};
-
-class Puzzle_string {
-    public:
-    string idea;
-    string question;
-
-};
-
-
-class Location {
-    public:
-    string name;
-    int id;
-    bool open;
-    string map[11]; 
-    int access;
- 
-};
-class Igrok {
- public:
- int current_loc;
-
-};
-
 
 int main (void) {
 // Переменные перехода
